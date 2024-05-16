@@ -4,7 +4,7 @@ from project import create_app, db
 from project.models import User
 from werkzeug.security import check_password_hash
 
-
+# TEST
 class TestWebApp(unittest.TestCase):
     def setUp(self):
         self.app = create_app({
